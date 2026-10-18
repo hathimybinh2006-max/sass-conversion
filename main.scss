@@ -1,0 +1,15 @@
+// main.scss - File gốc tổng hợp tất cả partials
+
+// 1. Abstracts: Biến và Mixins (phải import trước để các file khác dùng được)
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// 2. Base: Cài đặt toàn cục
+@import "base/global";
+
+// 3. Layout: Bố cục trang
+@import "layout/container";
+
+// 4. Components: Các thành phần giao diện
+@import "components/buttons";
+@import "components/cards";
